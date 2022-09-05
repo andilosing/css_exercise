@@ -14,8 +14,8 @@
     ". content ."
     "footer footer footer";
 
-    row-gap: 20px;
-    column-gap: 16px;
+    row-gap: 1px;
+    column-gap: 1px;
 }
 
 .a {
