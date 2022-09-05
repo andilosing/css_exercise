@@ -1,0 +1,38 @@
+.container {
+    color: rgb(255, 255, 255);
+    background-color: black;
+
+    
+}
+
+.main {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-rows: 80px 1fr 80px;
+    grid-template-areas:
+    "header header header"
+    ". content ."
+    "footer footer footer";
+
+    row-gap: 20px;
+    column-gap: 16px;
+}
+
+.a {
+    grid-area: header;
+    background-color: aqua;
+}
+
+.b {
+    grid-area: content;
+    background-color: aqua;
+}
+
+.c {
+    grid-area: footer;
+    background-color: aqua;
+}
+
+.link {
+    color: white;
+}
